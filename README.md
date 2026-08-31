@@ -14,4 +14,11 @@ void some_function(void) {
   int some_variable;
 }
 ```
+- a header (.h) and implementation (.c) file for a module (if make sense as a module, like a peripheral or sensor/actuator etc.)
 
+- prefix function names with module name
+```c
+// bad interface btw
+void uart_init(void);
+void spi_init(void);
+```

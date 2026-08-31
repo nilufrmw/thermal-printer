@@ -33,3 +33,4 @@ void spi_init(void);
 
 #endif // UART_H
 ```
+- Use `void` as parameter in function declarations without parameters, because in C, functions with empty paranthesis can be called with any number of parameters.

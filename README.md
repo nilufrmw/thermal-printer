@@ -1,6 +1,11 @@
 <pre> About </pre>
 Small driver for a thermal printer mechanism (LTP01-245-11 to be exact) using curiosity nano board with the SAMD21G17D mcu
 
+<pre> Documents </pre>
+[printer mechanism technical reference](https://www.e-kom.com/Documents/Products/1183/ltp01-series.pdf)
+
+[mcu datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D21-DA1-Family-Data-Sheet-DS40001882.pdf)
+
 <pre>Directory structure</pre>
 `docs/` - documentation
 

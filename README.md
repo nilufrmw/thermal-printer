@@ -9,7 +9,7 @@ some coding guidelines I follow in this project. [Reference](https://github.com/
 #define SOME_CONSTANT (0)
 
 void some_function(void) {
-  int some_variable;
+  uint8_t some_variable;
 }
 ```
 - a header (.h) and implementation (.c) file for a module (if make sense as a module, like a peripheral or sensor/actuator etc.)

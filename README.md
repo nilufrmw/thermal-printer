@@ -25,5 +25,11 @@ void spi_init(void);
 - 2 spaces no tab
 - use include guards in every header file to avoid duplicated and recursive inclusions
 - a brief comment describing the module at top of every header file
+```c
+#ifndef UART_H
+// A UART driver for setting up and operating the UART peripheral
 
+// interfaces
 
+#endif // UART_H
+```

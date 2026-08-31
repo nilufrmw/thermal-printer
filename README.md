@@ -35,4 +35,4 @@ void spi_init(void);
 ```
 - Use `void` as parameter in function declarations without parameters, because in C, functions with empty paranthesis can be called with any number of parameters.
 
-- Use fixed-width integers (uint8_t, uint16_t from stdint.h) as it makes memory usage obvious
+- Use fixed-width integers (`uint8_t`, `uint16_t` from `stdint.h`) as it makes memory usage obvious

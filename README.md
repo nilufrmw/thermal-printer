@@ -2,10 +2,14 @@
 Small driver for a thermal printer mechanism (LTP01-245-11 to be exact) using curiosity nano board with the SAMD21G17D mcu
 
 <pre>Directory structure</pre>
-`docs/` - documentation 
+`docs/` - documentation
+
 `src/` - source files (drivers, app)
+
 `src/test/` - test files
-`src/drivers` - drivers for mcu and printer l
+
+`src/drivers` - drivers for mcu and printer
+
 `src/app` - application code
 
 <pre> Coding Guidelines </pre>

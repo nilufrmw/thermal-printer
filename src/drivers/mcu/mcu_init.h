@@ -1,6 +1,6 @@
 #ifndef MCU_INIT_H
-// A UART driver for setting up and operating the UART peripheral
+// microcontroller init - configure clock and such
 
-// interfaces
+
 
 #endif // MCU_INIT_H

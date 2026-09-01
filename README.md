@@ -1,7 +1,7 @@
 <pre> About </pre>
 Small driver for a thermal printer mechanism (LTP01-245-11 to be exact) using curiosity nano board with the SAMD21G17D mcu
 
-==current state: writing driver for the mcu==
+`current state: writing driver for the mcu`
 
 <pre> Documents </pre>
 [printer mechanism technical reference](https://www.e-kom.com/Documents/Products/1183/ltp01-series.pdf)

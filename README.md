@@ -1,5 +1,5 @@
 <pre> About </pre>
-Small driver for a thermal printer mechanism (LTP01-245-11 to be exact) using curiosity nano board with the SAMD21G17D mcu
+small driver for a thermal printer mechanism (LTP01-245-11 to be exact) using curiosity nano board with the SAMD21G17D mcu
 
 `current state: writing driver for the mcu`
 
@@ -49,6 +49,6 @@ void spi_init(void);
 
 #endif // UART_H
 ```
-- Use `void` as parameter in function declarations without parameters, because in C, functions with empty paranthesis can be called with any number of parameters.
+- use `void` as parameter in function declarations without parameters, because in C, functions with empty paranthesis can be called with any number of parameters.
 
-- Use fixed-width integers (`uint8_t`, `uint16_t` from `stdint.h`) as it makes memory usage obvious
+- use fixed-width integers (`uint8_t`, `uint16_t` from `stdint.h`) as it makes memory usage obvious

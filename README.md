@@ -7,8 +7,6 @@ Small driver for a thermal printer mechanism (LTP01-245-11 to be exact) using cu
 [mcu datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D21-DA1-Family-Data-Sheet-DS40001882.pdf)
 
 <pre>Directory structure</pre>
-`docs/` - documentation
-
 `src/` - source files (drivers, app)
 
 `src/test/` - test files

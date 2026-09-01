@@ -1,5 +1,5 @@
 #ifndef MCU_INIT_H
-// microcontroller init - configure clock and such
+// microcontroller initialization
 
 void mcu_init(void);
 

@@ -13,10 +13,10 @@ void mcu_init(void) {
   the datasheet of the mcu.
 
   Datasheet says - after a power-on reset, some registers will be loaded with
-  initial values from the NVM User Row and suggest to refer to NVM (Non-volatile Memory)
-  User Row Mapping for more details. 
+  initial values from the NVM (Non-volatile Memory) User Row and suggest to refer to NVM User Row Mapping
+  for more details. 
   
-  Bit 25 (WDT Enable) is 0 by default implies WDT is turned off  by default. 
+  Bit 25 (WDT Enable) is 0 by default implying WDT is turned off  by default. 
   So we don't have to stop the watchdog manually.
   */ 
   
